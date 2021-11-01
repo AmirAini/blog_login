@@ -3,6 +3,7 @@
 
 <div class="flex justify-center">
     <div class="w-5/12 bg-white p-6 rounded-lg">
+        {{-- form --}}
         <form action="{{ route('register')}}" method="post">
             @csrf
             <div class="mb-4">

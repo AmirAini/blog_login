@@ -29,7 +29,7 @@
                     <a href="" class="p-3">Amir Aini</a>
                 </li>
                 <li>
-                    <a href="" class="p-3">Logout</a>
+                    <a href="{{ route('logout') }}" class="p-3">Logout</a>
                 </li>
                 
             {{-- if not signed in --}}
